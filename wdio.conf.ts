@@ -1,4 +1,4 @@
-export const config: WebdriverIO.Config  = {
+export const config: WebdriverIO.Config = {
     //
     // ====================
     // Runner Configuration
@@ -17,7 +17,7 @@ export const config: WebdriverIO.Config  = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/**/*.ts'
+        './tests/specs/**/*.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -137,7 +137,7 @@ export const config: WebdriverIO.Config  = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000,
+        timeout: 60000
     },
     //
     // =====
